@@ -14,9 +14,9 @@ df_osoba['Odchylenie'] = df.iloc[:, 3:].std(axis=1)
 df_przedmiot = df.iloc[:, 3:].agg(['mean', 'var', 'std']).transpose().reset_index()
 df_przedmiot.columns = ['Przedmiot', 'Średnia', 'Wariancja', 'Odchylenie']
 
-klasy_oceny = dict.fromkeys(df['Klasa'].unique())
-df_klasa = pd.DataFrame({'Klasa':klasy_oceny.keys()})
-for index, klasa in enumerate(klasy_oceny.keys()):
+klasy = df['Klasa'].unique()
+df_klasa = pd.DataFrame({'Klasa':klasy})
+for index, klasa in enumerate(klasy):
     oceny = df[df['Klasa'] == klasa].iloc[:, 3:].values.flatten()
     df_klasa.loc[index,'Średnia'] = oceny.mean()
     df_klasa.loc[index,'Wariancja'] = oceny.var()
