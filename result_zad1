@@ -1,0 +1,33 @@
+         Imię    Nazwisko   Średnia  Wariancja  Odchylenie
+0    Lejzorek   Apfelbaum  3.583333   1.719697    1.311372
+1       Hafez        Asad  2.583333   2.174242    1.474531
+2    Menachem       Begin  2.791667   1.702652    1.304857
+3         Ben       Bella  2.875000   1.232955    1.110385
+4       Jakub      Berman  3.375000   1.960227    1.400081
+..        ...         ...       ...        ...         ...
+72        Joe  Nieuwendyk  2.916667   1.219697    1.104399
+73  Shaquille     O'Neill  3.333333   1.060606    1.029857
+74      David    Robinson  3.958333   2.248106    1.499369
+75    Roberts  Stelmahers  2.916667   1.537879    1.240112
+76       John    Stockton  3.125000   1.596591    1.263563
+
+[77 rows x 5 columns]
+
+      Przedmiot   Średnia  Wariancja  Odchylenie
+0        Polski  3.188312   1.980519    1.407309
+1     Angielski  3.525974   1.611159    1.269314
+2     Niemiecki  3.487013   1.670882    1.292626
+3    Matematyka  2.603896   2.364064    1.537551
+4        Fizyka  3.240260   1.346121    1.160225
+5        Chemia  3.811688   1.723941    1.312989
+6      Biologia  2.493506   2.115089    1.454335
+7     Geografia  3.383117   1.545369    1.243129
+8      Plastyka  3.785714   1.522556    1.233919
+9   Informatyka  2.941558   2.624829    1.620132
+10           WF  3.051948   1.642003    1.281407
+11      Religia  3.090909   1.741627    1.319707
+
+  Klasa   Średnia  Wariancja  Odchylenie
+0     O  2.934211   1.932075    1.389991
+1     P  3.347588   2.047494    1.430907
+2     S  3.237500   1.704010    1.305377
